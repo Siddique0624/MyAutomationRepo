@@ -41,12 +41,12 @@ public class CibLogin {
 //   		LoginBtn.click();
    		
    	 public void typeusername() {
-   		username.sendKeys("admin@cibuat.com");
+   		username.sendKeys("UsernameDemo");
     	 }
 
 
     	 public void typepasswor() {
-    		 password.sendKeys("Revamp@2024$");
+    		 password.sendKeys("PasswordDemo");
     	 }
 
     	 public void Clickonlogin() {
