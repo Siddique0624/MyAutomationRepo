@@ -7,7 +7,9 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+//import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 
 public class OpensourcesLoginDemo {
 
@@ -38,7 +40,9 @@ public class OpensourcesLoginDemo {
        System.out.println(submitkey);
        System.out.println(commentkey);
        
-       WebDriver driver = new ChromeDriver();
+//       WebDriver driver = new ChromeDriver();
+       FirefoxOptions options = new FirefoxOptions();
+       FirefoxDriver driver = new FirefoxDriver(options);
        driver.manage().window().maximize();
        driver.get(urldata);
        
